@@ -216,8 +216,8 @@ merging_sequence ucm2hier(const Eigen::Array<double,Eigen::Dynamic,Eigen::Dynami
     ms.n_leaves = n_leaves;
     /*-----------------------------------------------------------*/
     
-    if(ms.n_regs!=ms.start_ths.size())
-        mexErrMsgTxt("Oh oh");
+//    if(ms.n_regs!=ms.start_ths.size())
+//        mexErrMsgTxt("Oh oh");
     
     
     return ms;
